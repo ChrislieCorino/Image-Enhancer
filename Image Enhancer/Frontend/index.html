@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Enhancer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+  <h1>AI Image Enhancer</h1>
+  <div id="drop-zone" class="drop-zone">
+    <p>Drag & drop an image or click to upload</p>
+    <input type="file" id="file-input" accept="image/*" hidden>
+  </div>
+  <div id="loading" class="hidden">Enhancing...</div>
+  <div id="result" class="hidden">
+    <h3>Enhanced Result</h3>
+    <img id="enhanced-img" src="" alt="Enhanced Image">
+  </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
